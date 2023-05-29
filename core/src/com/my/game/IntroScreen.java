@@ -68,7 +68,7 @@ public class IntroScreen implements Screen, InputProcessor {
             game.batch.setProjectionMatrix(camera.combined);
             game.batch.begin();
             //showBG();
-            game.font.draw(game.batch, "Welcome to AmongStars!", 100, 150);
+            game.font.draw(game.batch, "Welcome to AmongStar!", 100, 150);
             game.font.draw(game.batch, "Tap anywhere to begin!", 100, 100);
             //showMenu();
             game.batch.end();
