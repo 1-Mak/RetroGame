@@ -52,8 +52,8 @@ public class MyGame implements Screen {
 		explosionSound = Gdx.audio.newSound(Gdx.files.internal("explosion.wav"));
 
 
-		//spaceMusic.setLooping(true);
-		//spaceMusic.play();
+		spaceMusic.setLooping(true);
+		spaceMusic.play();
 
 
 		camera = new OrthographicCamera();
