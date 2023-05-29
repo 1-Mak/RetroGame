@@ -54,7 +54,7 @@ public class MyGame implements Screen {
 
 		spaceMusic.setLooping(true);
 		spaceMusic.play();
-
+/
 
 		camera = new OrthographicCamera();
 		camera.setToOrtho(false, 1200, 640);
